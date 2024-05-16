@@ -4,9 +4,9 @@ frontend:
     preBuild:
       commands:
         - npm ci
+        - npm start
     build:
       commands:
-      - npm start
   artifacts:
     baseDirectory: .
     files:
