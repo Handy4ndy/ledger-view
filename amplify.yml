@@ -4,9 +4,7 @@ frontend:
     preBuild:
       commands:
         - npm ci
-        - npm fund
-        - npm audit fix
-        - npm start
+        - node server.js
     build:
       commands:
   artifacts:
