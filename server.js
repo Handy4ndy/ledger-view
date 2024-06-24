@@ -5,7 +5,7 @@ import xrpl from "xrpl";
 const app = express();
 const port = 3000;
 
-const client = new xrpl.Client("wss://xrplcluster.com");
+const client = new xrpl.Client("wss://s.altnet.rippletest.net:51233/");
 
 // Define an object to store transaction data for all ledger sequences
 let transactionCounts = {};
